@@ -1,0 +1,153 @@
+1.7.3 - Feb 12, 2014
+
+** Rambles Changelog **
+
+FEB 12 2014 - Version 1.7.3
+	*Support for Bean Shortcodes 2.0+
+		-lib/functions/theme-setup.php
+		-style.css
+	*Performance & Maintenance
+		-style.css (version number)
+		
+JAN 22 2014 - Version 1.7.2
+	*Retina.js update to v1.1.0
+		-assets/js/retina.js
+	*Performance & Maintenance
+		-style.css (version number)
+		
+DEC 13 2013 - Version 1.7.1
+	*Bean Tweets 2.0 Compatibility
+		-style.css (lines 2221-2246)
+	*Performance & Maintenance
+		-style.css (version number)		
+		
+NOV 14 2013 - Version 1.7
+	*Bean Pricing Tables Plugin Compatibility
+		-lib/functions/theme-setup.php (lines 125, 152-156)
+		-style.css (lines 2135-2142)
+	*Style Adjustments (for updated browser specifications)
+		 -style.css (lines 44, 51, 666 & 2123)
+		 -lib/assets/css/framework.css (lines 19, 383)
+	*Performance & Maintenance
+		 -style.css (version number)
+		 -assets/images/login-logo.png (NEW)
+		 -package/sources/apple-touch-icon.psd (new smart object template)
+		 -assets/images/apple-touch-icon.png (updated branding)
+		 -lib/widgets/widget-flickr.php (WP3.7 style fix)
+		 -lib/functions/core-functions.php (url typo - line 155)
+		 -lib/functions/core-functions.php (fix: if no img updated logic for login logo - line 194-196)
+		 -lib/functions/theme-setup.php (child theme mods for other stylesheets - lines 14-16)
+		 
+OCT 7 2013 - Version 1.6.1
+	*Bean Social Plugin Compatibility
+		-style.css (2136-2138)
+	*Performance & Maintenance
+		-style.css (version number)
+		-screenshot.png (updated branding)
+		-lib/functions/core-functions.php (updated links)
+		-lib/functions/theme-functions.php (updated links)
+		-lib/functions/theme-options.php (typo - line 55)
+
+SEPT 1 2013 - Version 1.6
+	*Menu Improvements (second level default)
+		-assets/js/custom.js (lines 100-225)
+		-header.php (line 44)
+		-sidebar.php (line 34)
+		-style.css (lines 620, 644-657)
+	*Performance & Maintenance
+		-style.css (version number)
+		-screenshot.png (updated branding)
+		
+AUG 1 2013 - Version 1.5.1
+	*Retina.js compatibility
+		-assets/js/retina.js (NEW)
+		-lib/functions/theme-setup.php (line 22)
+	*Gallery post format re-ordering
+		-lib/functions/media.php (line 233)
+	*Performance & Maintenance
+		-lib/functions/theme-setup.php (line 15 - child theme fix)
+		-style.css (version number)
+		
+JUNE 18 2013 - Version 1.5 
+	*Removed Twitter Widget (in lieu of Bean Tweets Plugin)
+		-/assets/js/twitter-widget.js (REMOVED)	
+		-/lib/widgets/widget-twitter.php (REMOVED)
+		-/functions.php (REMOVED - include(.../widget-twitter.php' ) )
+		-/lib/functions/core-functions.php (Bean Tweets Plugin Admin Notice)
+	    -Download Tweets Plugin at http://themebeans.com/plugins/bean-tweets-plugin
+	*Bean Shortcodes Plugin Compatibility
+		-functions.php (removed shortcodes references)
+		-lib/functions/theme-setup.php
+		-assets/js/custom.js (removed shortcodes jquery)
+		-assets/js/custom-libraries.js (removed shortcodes jquery)
+		-lib/shortcodes (REMOVED)
+		-assets/images/shortcodes (REMOVED)	
+		-Download Bean Shortcodes Plugin at http://themebeans.com/plugins/bean-shortcodes-plugin
+	*Performance & Maintenance
+		-style.css (version number)
+		-assets/images/apple-touch-icon.png (updated branding)
+		-lib/admin/options/assets/js/options.js (faster theme options panel)
+		
+MAY 2 2013 - Version 1.4 
+	*Added scrolling sidebar theme option
+		-lib/functions/theme-setup.php (lines 209-18)
+		-lib/functions/theme-options.php (lines 51-58)
+	*Retina update (now supporting FF 2.0)
+		-assets/css/mobile.css (line 476)
+		-assets/css/shortcodes.css (line 889)	
+	*Twitter widget mobile bug fix
+		-lib/widgets/widget-twitter.php	
+		-assets/js/twitter-widget.js (new)
+	*SEO Title Update/Touch-up
+		-header.php (title tag)
+	*Performance & Maintenance
+		-page.php
+		-style.css (version number)
+		-screenshot.png (updated branding)
+					
+MAR 31 2013 - Version 1.3.5
+	*Added /rtl.css styles base for improved language support
+	*Shortcode Pop-Up Modal Update - fade / drop animation
+		-/assets/css/shortcodes.css (lines 708 - 843)
+		-/lib/shortcodes/theme-shortcodes.php (line 618)
+		-/assets/css/js/custom-libraries.js (line 609)
+		-style.css (line 253)
+	*Performance & Maintenance
+		-screenshot.png (retina quality image)
+		-files: header.php, theme-functions.php
+		
+MAR 17 2012 - Version 1.3
+	*Added Custom CSS Input via Theme Options 
+		-header.php (lines 79)
+		-lib/functions/theme-options.php (lines 317-332)
+		-lib/functions/theme-functions.php (lines 820-843)
+		-lib/admin/options/assets/css/options.css (lines 485-501)
+	*Framework Backend Maintenance
+		-lib/admin/options/options.php (line 82)
+		-lib/admin/options/options-init.php (lines 45-46, 116-128)
+		-lib/functions/theme-functions.php (lines 68-77)
+	*Theme Options Admin Bar Button
+		-lib/functions/theme-functions.php (lines 69-82)
+	*Performance & Maintenance
+		-style.css (version number)
+
+MAR 10 2012 - Version 1.2
+	*Added new social sharing buttons, Facebook & Twitter (lines 1346 - 1431)
+		-style.css (lines 1346 - 1431)
+		-single.php (lines 40 - 56)
+		-assets/css/mobile.css (lines 65 - 71)
+		-lib/functions/theme-options.php (Show/Hide Checkbox / Twitter input, lines 117 - 132)
+		-lib/functions/theme-functions.php (Show/Hide checkbox lines 770 - 783)
+	*Performance & Maintenance
+		-style.css (pagination touch-up, lines 903-912)
+		-screenshot.png (retina quality image)
+		-style.css (version number)
+				
+JAN 23 2012 - Version 1.1
+	*Performance & Maintenance
+		-style.css (line 587)
+	*Widget loading bug
+		-functions.php (removed lines 237-239)
+
+JAN 16 2012 - Version 1.0
+	*First Release
